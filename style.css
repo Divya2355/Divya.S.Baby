@@ -1,0 +1,154 @@
+/*theme name: hhhh*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+.menubar{
+	text-align:center;
+	background:black;
+	
+}
+.menubar ul li a{
+	color:white;
+	text-decoration:none;
+}
+.menubar ul{
+	list-style:none;
+display:inline-flex;
+}
+.menubar ul li{
+	width:120px;
+	padding:15px;
+	margin:15px;
+}
+.menubar ul li:hover{
+background-color:orange;
+border-radius:10px;
+}
+.submenu
+{
+display:none;
+z-index:1;	
+}	
+.menubar ul li:hover .submenu  {
+	display:block;
+    position:absolute;
+    background:black;
+    margin-top:15px;
+    margin-left:-15px;
+    border-radius:10px;
+}
+.menubar ul li:hover .submenu  ul
+{
+	display:block;
+	margin:10px;
+	
+	}
+.menubar ul li:hover .submenu  ul li{
+	width:100px;
+	padding:10px;
+	border-bottom:1px solid red;
+}	
+.row{
+	display:inline-flex;
+	margin-left:15px;
+	margin-right:15px;
+    text-align:justify;
+}
+.col{
+	padding:15px;
+	margin:20px;
+	background-color:rgba(0,0,0,0.4);
+	box-sizing:border-box;
+	width:450px;
+	height:350px;
+}
+.row h1{
+	text-align:center;
+	color:white;
+	text-decoration:underline;
+	margin-bottom:20px;
+}
+.row p{
+	color:white;
+	
+}
+.bg{
+	background:url(../img/sea.jpg)
+}
+.ft{
+	background-color:black;
+	color:white;
+	width:100%;
+	padding:50px;
+	text-align:center;
+	margin-top:20px;
+}
+.gal{
+	text-align:center;
+
+	
+}
+.gal img{
+	width:300px;
+	margin:30px;
+	height:150px;
+	box-shadow:10px 10px 5px black;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gal img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.2);
+	
+}
+.cont{
+	width:450px;
+	text-align:center;
+	height:500px;
+	position:relative;
+	left:400px;
+	margin:10px;
+	padding:40px;
+	background-color:rgba(0,0,0,0.8);
+	border-radius:10px;
+}
+.cont textarea{
+	height:100px;
+}
+.frm{
+	width:300px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+	outline:none;
+	border:1px solid #5b80a4;'
+	transition:0.5s;	
+}
+.frm:focus{
+	box-shadow:0px 0px 20px 6px #5b80a4;
+	
+}
+.frm-btn{
+	float:right;
+	padding:15px 50px;
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	outline:none;
+	border-radius:30px;
+	border:1px solid #5b80a4;
+}
+.log{
+	width:450px;
+	height:400px;
+	text-align:center;
+	position:relative;
+	left:400px;
+	border-radius:5px;
+	margin:10px;
+	padding:40px;
+	background-color:rgba(0,0,0,4);
+}
